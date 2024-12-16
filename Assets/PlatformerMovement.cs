@@ -60,7 +60,8 @@ public class PlatformerMovement : MonoBehaviour
             velocity.y = jumpForce;
             jumpInput = false;
         }
-        
+
+
         // Check if character lost contact with ground this frame
         if (wasGrounded == true && isGrounded == false)
         {
@@ -88,6 +89,8 @@ public class PlatformerMovement : MonoBehaviour
             else if (moveInput.x < -0.01f)
                 spriteRenderer.flipX = true;
         }
+
+
     }
 
     private void FixedUpdate()
