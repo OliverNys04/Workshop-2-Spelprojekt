@@ -27,8 +27,7 @@ public class CoinWin : MonoBehaviour
     void WinGame()
     {
         Debug.Log("You Win!");
-        // Optionally load a new scene or stop the game
-        // SceneManager.LoadScene("WinScene"); // Uncomment if you have a Win scene
-        Time.timeScale = 0; // Pauses the game
+        SceneManager.LoadScene("WinScene"); 
+
     }
 }
