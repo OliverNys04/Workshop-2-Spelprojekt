@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class CoinWin : MonoBehaviour
 {
     [Header("Win Condition")]
-    public int coinsToWin = 5; // Number of coins needed to win
+    public int coinsToWin = 4; // Number of coins needed to win
     private int currentCoins = 0; // Tracks collected coins
 
     void Start()

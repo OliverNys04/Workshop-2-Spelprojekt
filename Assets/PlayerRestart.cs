@@ -18,6 +18,6 @@ public class PlayerRestart : MonoBehaviour
     void RestartLevel()
     {
         Debug.Log("Player fell off! Restarting level...");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("LossScene");
     }
 }

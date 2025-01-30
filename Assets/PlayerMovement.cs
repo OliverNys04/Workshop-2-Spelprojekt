@@ -47,7 +47,6 @@ public class PlayerMovement : MonoBehaviour
 
         // Update Animator parameters
         animator.SetBool("running", movementInput.x != 0);
-        animator.SetBool("grounded", isGrounded);
     }
 
     void FixedUpdate()
